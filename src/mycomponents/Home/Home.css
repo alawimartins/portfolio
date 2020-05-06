@@ -1,0 +1,87 @@
+/* body {
+    position: relative;
+}
+.project-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    width: 70vw;
+    max-width: 1200px;
+    height: 65vh;
+    max-height:670px;
+    background-color: aqua;
+
+} */
+
+.home-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    perspective: 40em;
+    flex-direction: column;
+    margin: 0;
+}
+
+.home-intro{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    width: 50%;
+    position: relative;
+    padding-top:50px;
+    padding-bottom: 50px;
+  }
+
+  .project-img h1:after {
+      content: 'WORK';
+      margin: 0;
+
+  }
+
+  .project-img h1:hover:after {
+    content: 'Work';
+  }
+
+  h1{
+    color: #004744;
+    font-family: -apple-system, BlinkMacSystemFont;
+    font-size: 20px;
+  }
+
+  .flex{
+    
+    /* display: inline-block; */
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  .home-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #004744;
+   padding: 15px;
+    cursor: pointer;
+    /* margin: 0 0 30px 0; */
+    letter-spacing: 1.3px;
+    color:#004744;
+  }
+
+  .home-button:hover {
+    color: #ffffff !important;
+    background: #004744;
+    border-color: #004744 !important;
+    transition: all 0.4s ease 0s;
+  }
+
+
+
+
+  
+ 

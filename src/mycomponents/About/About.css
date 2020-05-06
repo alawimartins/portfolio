@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+.about {
+    background-color: rgba(0, 71, 68, .85);
+    width: 100%;
+    height: 100%;
+    z-index: -100;  
+   
+}
+
+.text-intro {
+    padding: 2%;
+}
+
+.text-intro p{
+    margin: 0;
+    color: white;
+    font-size: 21px;
+    font-family: 'Karla', sans-serif;
+    margin:0;
+    width: 50%;
+    margin-left: 47%;
+    font-weight: 400;
+    flex-shrink: 2;
+    line-height: 1.5;
+    margin-top: 2%;
+    /* height: 100vh; */
+    text-align: left;
+    /* font-weight: bolder; */
+    
+}
+
+.text-intro h1{
+    margin: 0;
+    color: #f19903;
+    
+    font-size: 38px;
+    font-family: 'Karla', sans-serif;
+    margin:0;
+    width: 50%;
+    margin-left: 47%;
+    font-weight: bolder;
+    flex-shrink: 2;
+    text-align: left;
+    /* line-height: 1.6; */
+    padding:0
+    
+
+    
+}
+
+.photo {
+    background-image: url('/images/photo.jpg');
+    width:44%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -200;
+    position: fixed; 
+     top: 0;
+    left:0;
+    margin: 0;
+    background-position: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+
+@media (max-width: 670px) {
+    .photo {
+        width:100%;  
+    }
+
+    .text-intro p{
+        margin: 0;
+        color: white;
+        font-size: 16px;
+        font-family: 'Karla', sans-serif;
+        margin:0;
+        width: 100%;
+        margin-left: 0%;
+        height: 60vh;
+        padding:4%;
+        
+    }
+
+    .text-intro h1{
+        margin: 0;
+        color: #f19903;
+        font-size: 38px;
+        font-family: 'Karla', sans-serif;
+        margin:0;
+        width: 50%;
+        /* margin-right: 20%; */
+        padding-left:4%;
+        
+        /* line-height: 1.6; */
+        
+        
+    }
+
+}

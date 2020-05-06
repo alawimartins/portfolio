@@ -1,0 +1,63 @@
+.aboutStyle p {
+    color: #f0fffe;
+  }
+  .email-container {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: space-between; */
+   
+  }
+
+
+
+  .email {
+    position: absolute;  
+    bottom:.9% ;
+    left:4%;
+    color: #004744;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display:flex;
+    align-items: center;
+
+  }
+
+  /* .vertical-text {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: left top 1%;
+    float: left;
+  } */
+  
+  .email img {
+   margin-right:20px;
+   cursor: pointer;
+   transition:0.3s;
+
+  }
+
+  .email img:hover{
+    transform: scale(1.08);
+    transform-origin: bottom;
+  }
+
+  .project-img {
+    cursor: pointer;
+    position: absolute;  
+    /* bottom:-25%; */
+    bottom:.5% ;
+    right:4%;
+    color: #004744;
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    align-items: center;
+   
+  }
+
+  .project-img img {
+    width: 120px;
+    height: auto;
+  }
+
+  
